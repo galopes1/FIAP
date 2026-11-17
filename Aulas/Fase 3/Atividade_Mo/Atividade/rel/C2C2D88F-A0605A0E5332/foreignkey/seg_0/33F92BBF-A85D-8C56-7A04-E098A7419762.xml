@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33F92BBF-A85D-8C56-7A04-E098A7419762" containerWithKeyObject="8F5323DF-B883-BF1D-F204-169E034A464A" localFKIndex="5257C865-566A-ACFF-AC06-94642CB68211" name="META_FINANCEIRA_USUARIO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>346BC6AA-D515-D9A1-ED5C-D22AA4730EF9</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<referredTableLongName>USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7253A33D-1E11-6A96-E06A-1053F88CCC24</referredTableID>
+<keyObject>56504E3F-52AC-6F5D-B628-27E13B47D44A</keyObject>
+<referredKeyID>56504E3F-52AC-6F5D-B628-27E13B47D44A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

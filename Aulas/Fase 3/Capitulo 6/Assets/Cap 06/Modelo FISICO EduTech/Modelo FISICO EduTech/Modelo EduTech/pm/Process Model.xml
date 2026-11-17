@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="6ED2B4FF-4A68-0C06-5DAB-48D772A556A6">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 11:57:11 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

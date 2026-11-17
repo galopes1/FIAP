@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EBBE577-90C7-64CA-9E49-D652299142DD" name="TETO_GASTO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>DB97D5C3-BB62-FB4A-A765-21F629AD0CC7</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_teto" id="3EBF608F-B172-2B36-D844-99012C84DAB1">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>6F3D101C-516A-137F-3D8D-50E1CAE34784</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="AF62445C-04AF-6A9D-5AEE-097999359AF6">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>1B66B5C4-D245-4C34-B82F-B5A0DD87A529</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A761D699-1EA7-9140-2F0A-982ADE95229B" referredColumn="0006D148-E81C-9618-F0C1-EE1A0E4AACC7"/>
+</associations>
+</Column>
+<Column name="CATEGORIA_id_categoria" id="36E85811-408D-656A-BB68-CF6EAC71E511">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>40CF14F6-C4BF-0CB2-364F-5611D0998DB6</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="615EF7E8-0E5A-B219-89E9-13FE71408398" referredColumn="6B236855-0A0B-069B-B42D-C2DDBC76E44A"/>
+</associations>
+</Column>
+<Column name="vl_limite" id="719F0719-0FE6-7766-5ADA-23B9DC0E5D21">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>A49C6FEF-B476-7F67-9450-7564F50BEA5E</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_mes_referencia" id="375D4EF7-927E-B1A6-E8B1-8089814DD91D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>119D8906-7504-18A4-97C7-53F891A9A37F</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ano_referencia" id="9D0980D8-6AF2-45A4-BF58-D65F9A5F3CC9">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>3A4D29FC-F8D5-1B0D-D1AE-AF5CE13BEADD</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_alerta_ativo" id="9EC87928-7C17-2352-05FE-2261065716BC">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>E2F4B0E1-F223-5F08-B8ED-D35BDAC81963</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB826FD0-A231-4FDC-CAE2-E3CC081EE244" name="TETO_GASTO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>32383FB2-BBAB-55A6-12DC-30BE679FA72F</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EBF608F-B172-2B36-D844-99012C84DAB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D481D99-E0F7-A386-50D8-7D0B2CB0313C" name="TETO_GASTO_USUARIO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>42C753C6-D4D7-A5B1-E782-B33971F4731A</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF62445C-04AF-6A9D-5AEE-097999359AF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C60EBCF-D660-81F1-E67F-962372C63FBC" name="TETO_GASTO_CATEGORIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>C857113E-DA69-9A8D-3F35-A10C17DFC38A</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36E85811-408D-656A-BB68-CF6EAC71E511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

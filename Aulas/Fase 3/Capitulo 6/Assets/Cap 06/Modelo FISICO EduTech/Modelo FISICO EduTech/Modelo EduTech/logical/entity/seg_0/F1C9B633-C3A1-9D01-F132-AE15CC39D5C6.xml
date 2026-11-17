@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1C9B633-C3A1-9D01-F132-AE15CC39D5C6" name="T_EXE_AULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:06:29 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_aula" id="DBAE72BA-A443-B615-8513-D93491F7E8C1">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:10:27 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="BE9B18C4-296C-B7FB-29E4-B81B7A747BE6">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:15:40 UTC</createdTime>
+<generatorID>5D731BBC-49D9-1512-49C1-6B046180AA39</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<referedAttribute>5F3DDDEB-D404-F852-B0AD-3437DECAF605</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ordem_sequencial" id="B10AD6B9-4CBA-EB85-E9FA-240A5E183093">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:11:18 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_aula" id="B459FF1A-938A-3F34-B272-453627605537">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:10:34 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_duracao_minuto" id="4343092C-5386-E07F-29D7-54290CB5DA3A">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:10:39 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7739AEF2-F395-EC53-95CD-48F5446AEADB" name="T_EXE_AULA PK">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:10:34 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBAE72BA-A443-B615-8513-D93491F7E8C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

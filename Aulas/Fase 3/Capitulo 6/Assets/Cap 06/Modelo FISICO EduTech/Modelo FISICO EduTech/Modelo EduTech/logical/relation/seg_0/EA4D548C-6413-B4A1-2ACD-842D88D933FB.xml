@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="EA4D548C-6413-B4A1-2ACD-842D88D933FB">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:16:17 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<sourcePk>EE18425B-34E5-2CE3-59DD-CEC17FCA3736</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>26879E13-E0CC-6295-43F6-36D748CE8049</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F499F5F3-BC91-C059-4B58-34482C6BC127</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

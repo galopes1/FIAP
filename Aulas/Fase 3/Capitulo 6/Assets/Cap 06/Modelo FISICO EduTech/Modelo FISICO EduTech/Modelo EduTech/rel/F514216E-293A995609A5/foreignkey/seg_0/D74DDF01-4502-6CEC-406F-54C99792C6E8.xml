@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D74DDF01-4502-6CEC-406F-54C99792C6E8" containerWithKeyObject="7478FC27-227B-BBEB-4F93-158DD602FA27" localFKIndex="9FF9421D-C625-6FDB-DBFA-2D665F8DD9AF" name="FK_T_EXE_PROGRESSO_AULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>81BD88C0-2522-E118-7620-44BB2A8F2713</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<referredTableLongName>T_EXE_AULA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>205D6D6E-DADA-35CF-A3A1-9D209D0DD636</referredTableID>
+<keyObject>758CDB66-28A2-546F-4E96-8749B197A03C</keyObject>
+<referredKeyID>758CDB66-28A2-546F-4E96-8749B197A03C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_aula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

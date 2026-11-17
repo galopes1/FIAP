@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7478FC27-227B-BBEB-4F93-158DD602FA27" name="T_EXE_PROGRESSO">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>F499F5F3-BC91-C059-4B58-34482C6BC127</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_matricula" id="687AE458-BA37-090E-6A3F-B9476485AA63">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compõe o identificador único da tabela Progresso.
+Chave estrangeira - Relacionamento com Matricula.
+]]></commentInRDBMS>
+<generatorID>65ED80CA-20D4-4813-4749-F1CAEF73BFFB</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="223D99AA-40CE-6448-5E55-EEED87284246" referredColumn="6D765536-7EEC-2D36-B68D-E60F1F9301E7"/>
+</associations>
+</Column>
+<Column name="id_aula" id="82A4E33E-C00C-C713-A1AA-263E7B9B3CC1">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compõe o identificador único da tabela Progresso.
+Chave estrangeira - Relacionamento com Aula.
+]]></commentInRDBMS>
+<generatorID>1E9BB6B2-3DDE-D9F8-16C6-8F7877A4E7DD</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D74DDF01-4502-6CEC-406F-54C99792C6E8" referredColumn="D73E7C1A-4796-D06D-E624-CCD3200F8315"/>
+</associations>
+</Column>
+<Column name="id_curso" id="41D60200-53AB-9C90-661C-AA3BA8AD9FD7">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compõe o identificador único da tabela Progresso.
+Chave estrangeira - Relacionamento com Curso.
+]]></commentInRDBMS>
+<generatorID>1376DAD2-9176-50DC-49A5-B6DACE03BA19</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="223D99AA-40CE-6448-5E55-EEED87284246" referredColumn="B216D499-0B4A-3F1C-79DC-0471A7819D2F"/>
+</associations>
+</Column>
+<Column name="dt_aula_assistida" id="6E5F05F4-D855-D978-BB1A-0EB073EB7DD5">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data em que a aula foi assistida]]></commentInRDBMS>
+<generatorID>603C0DF8-CA02-BE02-8C0D-4841209FFFC2</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_concluida" id="3CF69BB8-7016-4A8B-23D1-1DE169AD64C0">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[O status de conclusão de uma aula deve ser 'N' por padrão.
+O status de conclusão de uma aula pode ser: 'S' (Sim) ou 'N' (Não) ]]></commentInRDBMS>
+<generatorID>07A09600-3C72-D59C-BBDD-C8D2F65B99B0</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<constraintNotes><![CDATA[O status de conclusão de uma aula deve ser 'N' por padrão ]]></constraintNotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_ultima_atualizacao" id="B5A602A7-9FF7-8D3D-90BA-3882EEDBD4D0">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora da ultima alteraçao realizada no progesso do aluno.]]></commentInRDBMS>
+<generatorID>BF58D1BE-D550-7872-B314-3B85C8D9CAB8</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3829FFF-DB5C-C8B8-30AA-CA63D66F11DC" name="PK_T_EXE_PROGRESSO">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>8C452131-5213-F671-5371-5FBC651BBF57</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="687AE458-BA37-090E-6A3F-B9476485AA63"/>
+<colUsage columnID="82A4E33E-C00C-C713-A1AA-263E7B9B3CC1"/>
+<colUsage columnID="41D60200-53AB-9C90-661C-AA3BA8AD9FD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A194EC8A-402C-DEDA-C32C-84DD594E6868" name="FK_T_EXE_PROGRESSO_MATRICULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>EA4D548C-6413-B4A1-2ACD-842D88D933FB</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="687AE458-BA37-090E-6A3F-B9476485AA63"/>
+<colUsage columnID="41D60200-53AB-9C90-661C-AA3BA8AD9FD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FF9421D-C625-6FDB-DBFA-2D665F8DD9AF" name="FK_T_EXE_PROGRESSO_AULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>81BD88C0-2522-E118-7620-44BB2A8F2713</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82A4E33E-C00C-C713-A1AA-263E7B9B3CC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_EXE_PROGRESSO_STATUS" directorySegmentName="seg_0" id="9D65A603-A9F6-2AE6-642B-19AAB3D9497D">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-20 01:42:07 UTC</createdTime>
+<comment><![CDATA[O status de conclusão de uma aula pode ser: 'S' (Sim) ou 'N' (Não) ]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[UPPER(ST_CONCLUIDA) IN ('S', 'N')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

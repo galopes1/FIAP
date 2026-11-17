@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registra" directorySegmentName="seg_0" id="D539BD4D-F62F-921B-072A-FDB6C5FC9760">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-26 22:15:25 UTC</createdTime>
+<ownerDesignName>atividadeCap6</ownerDesignName>
+<engineerTo>
+<item key="83A9CE0F-4F18-36C0-B110-3F2163D6C721" value="true"/>
+</engineerTo>
+<sourcePk>540F6504-BD7D-48AE-BF7E-50FBBC329490</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F104C86-11B3-832D-9AFC-CAACFEFBA1C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F644AA70-E480-C756-369F-3F7EE50613AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

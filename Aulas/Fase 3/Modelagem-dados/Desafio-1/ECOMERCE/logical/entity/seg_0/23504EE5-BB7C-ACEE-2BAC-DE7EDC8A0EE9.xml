@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23504EE5-BB7C-ACEE-2BAC-DE7EDC8A0EE9" name="T_TSB_ITEM_PEDIDO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:19:01 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_pedido" id="9F597514-5100-D1A7-A78D-D0C6B06D4A43">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:40:50 UTC</createdTime>
+<generatorID>620D1D7A-C279-EF5B-5596-D89A5F70A5B9</generatorID>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<referedAttribute>43328E39-933A-6115-DD4E-0B56B59F158B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="6097AA6C-2847-1D3B-6211-6A876F336C57">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:42:02 UTC</createdTime>
+<generatorID>0DEDF90C-C696-DF97-DC24-3ADC693EE074</generatorID>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<referedAttribute>9114C210-E8BD-2FBC-2715-BB8CAF109082</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_comercializada" id="E9A942F8-2D6B-16B1-704F-E6BB6A7EADB3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:38:41 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_unit_venda" id="44D3B6EE-FF91-A91D-36F8-202C0FA8F5C5">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:39:03 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_desconto_item" id="C6077192-28E6-C87C-5DF3-678B5AE89F7D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:39:22 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total_item" id="9E171F7F-F6A3-3F1F-FED6-0E4F645DA89D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:39:44 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B477540-551E-BCC9-DF1C-33F5533118CD" name="T_ITEM_PEDIDO PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:41:41 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F597514-5100-D1A7-A78D-D0C6B06D4A43</attributeRef>
+<attributeRef>6097AA6C-2847-1D3B-6211-6A876F336C57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

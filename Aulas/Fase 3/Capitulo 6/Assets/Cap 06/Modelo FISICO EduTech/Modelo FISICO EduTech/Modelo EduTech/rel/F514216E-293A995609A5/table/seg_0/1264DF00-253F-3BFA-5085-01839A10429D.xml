@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1264DF00-253F-3BFA-5085-01839A10429D" name="T_EXE_CURSO">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>B7E53814-E3E7-AA01-BF60-6D2A07AC656E</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="8B8094C2-477E-22F9-3FA3-C495F842CFEE">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do curso.]]></commentInRDBMS>
+<generatorID>5F3DDDEB-D404-F852-B0AD-3437DECAF605</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_instrutor" id="BE9A4B84-493F-9060-F7F0-5B5C25DA0651">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cahve estrangeira - Relacionamento com o Instrutor]]></commentInRDBMS>
+<generatorID>C3984F14-CD35-96F3-8DF7-11E480587705</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E020E535-6275-F3C4-4CCA-1A5B45C9B848" referredColumn="06018BC0-2AA2-BD7E-8DCD-38793CBD51BB"/>
+</associations>
+</Column>
+<Column name="nm_curso" id="64A65146-1011-D7F7-DD78-90000CC3D348">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do curso - obrigatório]]></commentInRDBMS>
+<generatorID>109D0137-CDDA-D727-4B9A-9EAAFD9EC0B0</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_categoria" id="E83558C8-C2A5-40B0-5CAF-EC4025A5E52D">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Categoria do curso (exemplo: Programação, Negócios)]]></commentInRDBMS>
+<generatorID>1EF80207-35F0-1A08-DFE3-F25E77BFBC96</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco" id="C9A33E98-34E3-4CFC-E923-4A46AA88B6DE">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor Total do Curso]]></commentInRDBMS>
+<generatorID>7A09D931-3B5B-8D8E-DB35-2579BDEC83E0</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="A6E26B04-02CB-623D-B876-D340AF4E1469">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora que o cadastro do curso foi realizado]]></commentInRDBMS>
+<generatorID>0B5B662C-381F-B9D3-FF9A-F9E38802847B</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_ultima_atualizacao" id="73E97A69-9F3E-02BC-5ACA-FD27376F7CE2">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora da ultima alteraçao realizada no cadastro do curso]]></commentInRDBMS>
+<generatorID>1AE9BD27-B69C-B5C4-BA16-0109E7DC4492</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_ativo" id="77CF829B-9BFF-091B-A02C-D1C6802E062C">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[O status de atividade do curso pode ser: 'S' (Sim) ou 'N' (Não) ]]></commentInRDBMS>
+<generatorID>55EB0A5D-2BAF-7C98-C20D-8F42027C6189</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9F77B4D-2383-E005-D6FD-D1D5750FDF10" name="PK_T_EXE_CURSO">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>939AE4DF-0A0C-FAF4-4AA5-2B7253FAAE50</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B8094C2-477E-22F9-3FA3-C495F842CFEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8168F6C6-FA99-2886-B23E-5FAC73496A30" name="FK_T_EXE_CURSO_INSTRUTOR">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>4A985C53-C220-9902-7D8E-907472FBDD55</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE9A4B84-493F-9060-F7F0-5B5C25DA0651"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_EXE_CURSO_PRECO" directorySegmentName="seg_0" id="AF327220-9464-B3A0-7328-965A8832C120">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:48:58 UTC</createdTime>
+<comment><![CDATA[O preço de um curso deve ser maior que zero ]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[VL_PRECO > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_EXE_CURSO_STATUS" directorySegmentName="seg_0" id="797CE75D-7D6A-E04D-17B7-B491963B4F5C">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-20 01:56:44 UTC</createdTime>
+<comment><![CDATA[O status de atividade do curso pode ser: 'S' (Sim) ou 'N' (Não) ]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[UPPER(ST_ATIVO IN ('S', 'N')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

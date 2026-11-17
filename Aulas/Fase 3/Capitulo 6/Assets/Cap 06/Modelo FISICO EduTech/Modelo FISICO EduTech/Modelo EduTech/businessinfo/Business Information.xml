@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="36D31FB8-AC67-83C1-60C5-279AE9E59941">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 11:57:11 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

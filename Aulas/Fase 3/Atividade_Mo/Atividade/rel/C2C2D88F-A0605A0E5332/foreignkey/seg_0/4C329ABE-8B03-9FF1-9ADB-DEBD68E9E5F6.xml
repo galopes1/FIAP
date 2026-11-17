@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C329ABE-8B03-9FF1-9ADB-DEBD68E9E5F6" containerWithKeyObject="7BD3CA98-888D-36E9-56D6-60F7B1306166" localFKIndex="D400BC4D-AD1C-79D6-B938-C83B5821B2B7" name="TRANSACAO_CONTA_BANCARIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>9B94C7FB-5371-AE0B-C5FF-C8B7ADB4A70B</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<referredTableLongName>CONTA_BANCARIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FC8C556B-6486-91E8-1D1A-2936EA33F16A</referredTableID>
+<keyObject>F7B9C048-0DDD-108E-EA25-9F1BBE682DFB</keyObject>
+<referredKeyID>F7B9C048-0DDD-108E-EA25-9F1BBE682DFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_conta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

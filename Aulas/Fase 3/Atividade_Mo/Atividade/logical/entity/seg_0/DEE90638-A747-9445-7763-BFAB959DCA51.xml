@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEE90638-A747-9445-7763-BFAB959DCA51" name="META_FINANCEIRA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:17:38 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_meta" id="EA11C37B-155F-4996-5E9D-76FB6485B866">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:17:48 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="995DFE11-74F9-1272-EBDA-16EB18B0B397">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:21:29 UTC</createdTime>
+<generatorID>346BC6AA-D515-D9A1-ED5C-D22AA4730EF9</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<referedAttribute>82A7AEDC-7D12-7EEF-BAAA-653533A72E23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_meta" id="2CEC472B-FFAD-0F7D-D172-B7778615A090">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:17:58 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_alvo" id="11D40EAC-90F1-80B9-37B5-2A04A1CC8A82">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:18:10 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_atual" id="7D7AAD3E-70F4-34BA-7C7A-FD54F7747EFD">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:18:23 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_limite" id="0A57C768-97E0-BEDB-7CD0-D6B9B663D146">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:18:48 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB817717-8750-CD53-2E02-18FB774DEAE4" name="META_FINANCEIRA PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:17:51 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EA11C37B-155F-4996-5E9D-76FB6485B866</newElementsIDs>
+<usedAttributes>
+<attributeRef>EA11C37B-155F-4996-5E9D-76FB6485B866</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

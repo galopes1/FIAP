@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED72A0D9-EE1A-300A-E76C-260FA64EA5FE" name="T_EXE_MATRICULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>26879E13-E0CC-6295-43F6-36D748CE8049</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_matricula" id="6D765536-7EEC-2D36-B68D-E60F1F9301E7">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da Matrícula. Cada aluno pode ter uma única matrícula para um determinado curso.]]></commentInRDBMS>
+<generatorID>56E9C3A5-81CA-9F38-BADE-2DDD30A86373</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_curso" id="B216D499-0B4A-3F1C-79DC-0471A7819D2F">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compõe o identificador único da tabela Matricula.
+Chave estrangeira - Relacionamento com Curso]]></commentInRDBMS>
+<generatorID>B4E73F8F-FDFE-84C8-0886-830B98181FF0</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50BDF353-FCF9-3F10-00AC-8FD8036E957A" referredColumn="8B8094C2-477E-22F9-3FA3-C495F842CFEE"/>
+</associations>
+</Column>
+<Column name="id_aluno" id="7821C9A3-F454-14DA-5A1A-8FCF4921F0BD">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave estrangeira - Relacionamento com Aluno]]></commentInRDBMS>
+<generatorID>878140AA-A365-EAB4-2438-A3DDDA25335E</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="964F8A76-F1A6-D02B-146C-A8CD34163677" referredColumn="25C53365-F1B6-E6AE-2B66-3FF57377EEBD"/>
+</associations>
+</Column>
+<Column name="dt_matricula" id="2E36CE2E-5E44-7F10-89A6-58C460848D30">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[A data de matrícula deve ser preenchida automaticamente com a data atual ]]></commentInRDBMS>
+<generatorID>F19A3F8A-FA8E-2088-B9E4-3C0571BB8AB7</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<constraintComment><![CDATA[A data de matrícula deve ser preenchida automaticamente com a data atual ]]></constraintComment>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_pago" id="88954103-C9C4-2235-186B-EF7819AE8C66">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor pago pelo curso]]></commentInRDBMS>
+<generatorID>5FAB64CD-C73D-B462-A93D-71C0EEF62141</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_forma_pagamento" id="0B4DCE9A-41EA-72B5-8E50-7B96A3061CEE">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[A forma de pagamento pode ser: 'Cartão de Crédito', 'PIX', 'Boleto']]></commentInRDBMS>
+<generatorID>478449A7-FE15-E861-ACE1-03EDC906DFCB</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_curso" id="DA702DD8-19B2-E991-8540-CA9EDAEB274C">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[O status de um curso deve ser 'EM_ANDAMENTO' por padrão.
+O status de um curso pode ser: 'EM_ANDAMENTO', 'CONCLUIDO' ou 'CANCELADO' ]]></commentInRDBMS>
+<generatorID>9FBB123E-5718-F620-D587-C6782D1C1171</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<constraintNotes><![CDATA[O status de um curso deve ser 'EM_ANDAMENTO' por padrão]]></constraintNotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<defaultValue>&apos;EM_ANDAMENTO&apos;</defaultValue>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="C9A96610-78C9-E1F6-9472-3754065D1561">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora que o cadastro da matricula foi realizado]]></commentInRDBMS>
+<generatorID>B6964D7D-67ED-115D-4998-1ACE979274FD</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="120D05B0-7F5B-B7BE-EA28-E51245FBAD15" name="PK_T_EXE_MATRICULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>EE18425B-34E5-2CE3-59DD-CEC17FCA3736</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D765536-7EEC-2D36-B68D-E60F1F9301E7"/>
+<colUsage columnID="B216D499-0B4A-3F1C-79DC-0471A7819D2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A4A73D2-0C35-D909-F258-495B86AE045B" name="FK_T_EXE_MATRICULA_ALUNO">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>B49BD8CC-410C-65CE-DF17-E844FD49BBFB</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7821C9A3-F454-14DA-5A1A-8FCF4921F0BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90CEF5BA-A480-06C1-C1D7-55BD81A8DF1C" name="FK_T_EXE_MATRICULA_CURSO">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>E5F523B2-D97F-D4A0-4D03-62EF379FAF5F</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B216D499-0B4A-3F1C-79DC-0471A7819D2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_EXE_MATRICULA_VLPAGO" directorySegmentName="seg_0" id="8045538C-CF27-5515-2D7C-DA97DF60472F">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-20 00:33:47 UTC</createdTime>
+<comment><![CDATA[O valor pago em uma matrícula deve ser maior ou igual a zero ]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[VL_PAGO >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_EXE_MATRICULA_STATUS" directorySegmentName="seg_0" id="A0C97CD9-5386-40E6-4CD2-F721B89CDBF4">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-20 01:57:24 UTC</createdTime>
+<comment><![CDATA[O status de um curso pode ser: 'EM_ANDAMENTO', 'CONCLUIDO' ou 'CANCELADO' ]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[UPPER(ST_CURSO) IN ('EM_ANDAMENTO', 'CONCLUIDO', 'CANCELADO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_EXE_MATRICULA_FORMA" directorySegmentName="seg_0" id="0CEDB41C-AC95-DEFA-C1BB-46A395F21BEE">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-20 02:00:36 UTC</createdTime>
+<comment><![CDATA[A forma de pagamento pode ser: 'Cartão de Crédito', 'PIX', 'Boleto']]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[UPPER(DS_FORMA_PAGAMENTO) IN ('CARTÃO DE CRÉDITO', 'PIX', 'BOLETO')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

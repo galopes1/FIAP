@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF5FB6DF-91FF-D383-BE77-50DC1FCC937C" name="CATEGORIA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>270C67B0-7363-9BBF-21AA-92070CA26212</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="6B236855-0A0B-069B-B42D-C2DDBC76E44A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>FB5FEC9B-696D-601B-1533-695A92DEA10A</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_categoria" id="2E119FB0-A7CE-5B6F-3A02-E8158F00EFDD">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>9AB4E327-B8AC-6ADB-BCD4-97D22B0B927A</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_categoria" id="FCAAA225-2A16-D81F-C114-08C69C90BB46">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>8D49B449-9759-D0CB-A937-D442BC24E507</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="265DDE1E-06AB-E875-3BD8-B7D711C4AAB8" name="CATEGORIA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>DFFF3D99-0B55-FC48-D5C4-8E3E077C6EBE</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B236855-0A0B-069B-B42D-C2DDBC76E44A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

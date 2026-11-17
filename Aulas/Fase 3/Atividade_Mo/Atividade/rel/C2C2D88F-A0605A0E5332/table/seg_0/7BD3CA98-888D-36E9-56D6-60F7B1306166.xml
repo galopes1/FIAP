@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BD3CA98-888D-36E9-56D6-60F7B1306166" name="TRANSACAO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>E718A497-EE6B-82CB-B732-B4D43F0AEF1A</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transacao" id="4BB9A2F6-C324-ED7B-4DD9-BEDEB17DD469">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>1D9F035D-04F2-C5AC-075A-35ACDCFB0343</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTA_BANCARIA_id_conta" id="02B221DF-DB94-3809-0163-7E2064D3C588">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>805E09ED-0D1F-BCA5-29B7-5B0B7EAEBA52</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C329ABE-8B03-9FF1-9ADB-DEBD68E9E5F6" referredColumn="5E19B021-6567-8DCA-9E41-45BFF5F3636F"/>
+</associations>
+</Column>
+<Column name="CATEGORIA_id_categoria" id="2C0AF9CE-225C-89A3-2E76-8F4787B2B051">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>4CD33AC7-0164-BD62-F132-46486565E3AB</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B183F57E-3326-9414-5A35-7CB8DD97C08A" referredColumn="6B236855-0A0B-069B-B42D-C2DDBC76E44A"/>
+</associations>
+</Column>
+<Column name="vl_transacao" id="985DA8FA-4020-0175-9558-3E461642D0BF">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>C58DB889-41B5-DCC9-25AC-06DA6880F4F6</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_transacao" id="05C34D35-46FA-29D5-F571-D07EA68C470E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>C62F952B-49AD-73A7-7C76-EB289DFA0500</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_transacao" id="94AD6604-5966-DB5E-8AD7-588FFF86FE23">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>1B91A515-816F-E118-1636-1FED32FE4C59</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_transacao" id="53983AE7-A08C-FFF2-D84B-D5081FB95512">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>9E907FD2-5CCC-9F1B-DD4D-A416FB3E721F</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_forma_pagamento" id="7B8C17EF-94FE-2623-3D78-1C6064530FDD">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>199DA3DA-2291-C812-C661-24376A9FE9E1</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68797C65-3906-7548-9A9D-B2B66D5254C1" name="TRANSACAO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>3C4A269A-AD44-FC58-A492-A0886BDFF84F</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BB9A2F6-C324-ED7B-4DD9-BEDEB17DD469"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8995205D-11ED-8226-7E64-BB332AF1D806" name="TRANSACAO_CATEGORIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>400F4585-3559-A7F9-BFE8-CDD1795B1706</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C0AF9CE-225C-89A3-2E76-8F4787B2B051"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D400BC4D-AD1C-79D6-B938-C83B5821B2B7" name="TRANSACAO_CONTA_BANCARIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>9B94C7FB-5371-AE0B-C5FF-C8B7ADB4A70B</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02B221DF-DB94-3809-0163-7E2064D3C588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

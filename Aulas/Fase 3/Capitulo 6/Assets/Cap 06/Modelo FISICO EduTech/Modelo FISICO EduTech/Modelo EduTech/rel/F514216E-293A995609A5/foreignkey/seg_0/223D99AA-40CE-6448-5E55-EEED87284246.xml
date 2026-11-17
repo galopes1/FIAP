@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="223D99AA-40CE-6448-5E55-EEED87284246" containerWithKeyObject="7478FC27-227B-BBEB-4F93-158DD602FA27" localFKIndex="A194EC8A-402C-DEDA-C32C-84DD594E6868" name="FK_T_EXE_PROGRESSO_MATRICULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>EA4D548C-6413-B4A1-2ACD-842D88D933FB</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<referredTableLongName>T_EXE_MATRICULA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED72A0D9-EE1A-300A-E76C-260FA64EA5FE</referredTableID>
+<keyObject>120D05B0-7F5B-B7BE-EA28-E51245FBAD15</keyObject>
+<referredKeyID>120D05B0-7F5B-B7BE-EA28-E51245FBAD15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_matricula,id_curso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

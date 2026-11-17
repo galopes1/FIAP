@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC8C556B-6486-91E8-1D1A-2936EA33F16A" name="CONTA_BANCARIA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>B6F62D49-9F00-D704-5C8E-5ABACB071DB4</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_conta" id="5E19B021-6567-8DCA-9E41-45BFF5F3636F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>2640A48C-6251-C63B-5590-4E0F08C1C4FA</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="7207C7CD-55A0-7ECC-BA65-72039DFE711E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>F569E9A5-662D-5F4F-A3D8-7DFFEDED6282</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6184DC19-0E7C-7D95-BE15-DC6B783527F4" referredColumn="0006D148-E81C-9618-F0C1-EE1A0E4AACC7"/>
+</associations>
+</Column>
+<Column name="nm_instituicao" id="0D42B47A-18B9-BCF1-CAE4-AF13BE14B862">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>B42BA17D-3546-F2B0-809E-9352ACA21FF9</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_conta" id="C42EFAE8-AD30-439E-D5CE-916BCB05145C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>763559E4-B663-C4D9-040A-26A60DD3605F</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_saldo_atual" id="CC6B0B92-04E0-1D0A-7D23-0E85C89301E8">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>2803B13C-676D-D058-60A8-65E74C6227F3</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7B9C048-0DDD-108E-EA25-9F1BBE682DFB" name="CONTA_BANCARIA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>4E031C6F-58C3-40DA-347F-9F52B29BB5EA</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E19B021-6567-8DCA-9E41-45BFF5F3636F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E39B7C2-E61F-4A79-9D9D-1C38A66A099A" name="CONTA_BANCARIA_USUARIO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>F9315835-27F4-95CE-D4FA-3459EBDB5E42</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7207C7CD-55A0-7ECC-BA65-72039DFE711E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

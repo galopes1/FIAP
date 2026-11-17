@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26879E13-E0CC-6295-43F6-36D748CE8049" name="T_EXE_MATRICULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:06:52 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_matricula" id="56E9C3A5-81CA-9F38-BADE-2DDD30A86373">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:11:38 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="B4E73F8F-FDFE-84C8-0886-830B98181FF0">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:16:01 UTC</createdTime>
+<generatorID>E5F523B2-D97F-D4A0-4D03-62EF379FAF5F</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<referedAttribute>5F3DDDEB-D404-F852-B0AD-3437DECAF605</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_aluno" id="878140AA-A365-EAB4-2438-A3DDDA25335E">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:15:53 UTC</createdTime>
+<generatorID>B49BD8CC-410C-65CE-DF17-E844FD49BBFB</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<referedAttribute>A7072844-CA41-2D57-B3E2-C3209F971FCD</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_matricula" id="F19A3F8A-FA8E-2088-B9E4-3C0571BB8AB7">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:11:44 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_pago" id="5FAB64CD-C73D-B462-A93D-71C0EEF62141">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:11:51 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_forma_pagamento" id="478449A7-FE15-E861-ACE1-03EDC906DFCB">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:11:56 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_curso" id="9FBB123E-5718-F620-D587-C6782D1C1171">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:12:08 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cadastro" id="B6964D7D-67ED-115D-4998-1ACE979274FD">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 23:24:17 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE18425B-34E5-2CE3-59DD-CEC17FCA3736" name="T_EXE_MATRICULA PK">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 12:11:42 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<engineerTo>
+<item key="F514216E-9AA3-AF01-DE0B-293A995609A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4E73F8F-FDFE-84C8-0886-830B98181FF0</attributeRef>
+<attributeRef>56E9C3A5-81CA-9F38-BADE-2DDD30A86373</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

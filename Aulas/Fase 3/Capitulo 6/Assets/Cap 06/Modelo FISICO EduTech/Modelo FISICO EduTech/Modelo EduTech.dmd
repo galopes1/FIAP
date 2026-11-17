@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo EduTech" id="C97C64C6-3027-6187-08A7-9EC86F8F67BA" version="3.5">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 11:57:11 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C97C64C6-3027-6187-08A7-9EC86F8F67BA</designId>
+</OSDM_Design>

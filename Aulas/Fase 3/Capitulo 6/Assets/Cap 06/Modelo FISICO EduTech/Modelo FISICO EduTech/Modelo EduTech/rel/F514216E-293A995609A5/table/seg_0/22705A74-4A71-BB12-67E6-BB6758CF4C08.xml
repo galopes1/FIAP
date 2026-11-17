@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22705A74-4A71-BB12-67E6-BB6758CF4C08" name="T_EXE_INSTRUTOR">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>5CDFB32D-D792-0AC2-0465-A5DE0A0B0122</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_instrutor" id="06018BC0-2AA2-BD7E-8DCD-38793CBD51BB">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do instrutor]]></commentInRDBMS>
+<generatorID>59816EB4-9180-FFD7-3F79-508F3B0ABAEB</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_instrutor" id="441C0CC8-48C8-84A1-E251-33A06E0BC742">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do instrutor - obrigatório]]></commentInRDBMS>
+<generatorID>397FEF17-1412-89AA-166B-02A8BDCD45B9</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="FB3B04C3-DE6B-9FAF-27B1-05345F3AD97C">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada instrutor deve ter um CPF único.
+O CPF deve ter exatamente 11 dígitos numéricos.]]></commentInRDBMS>
+<generatorID>52D22FE0-B0B5-0369-0157-E10A09E8460D</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_especialidade" id="B3426DD2-8610-D1A0-3302-78967381E842">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Especialidade do instrutor (exemplo: Banco de Dados)]]></commentInRDBMS>
+<generatorID>21A76073-D28C-E26A-8CCD-576AC6330FCB</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="4B70C7D2-B9A7-FB69-8807-AC9A09CA9B48">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora que o cadastro do instrutor foi realizado]]></commentInRDBMS>
+<generatorID>9BDABFC3-F7FC-3F7E-50A1-A0AFCE2DCC66</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B7E5EE1-CF40-6978-08A9-C00622CB85D4" name="PK_T_EXE_INSTRUTOR">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>FE2F61A2-6E6B-117B-50AE-86D4CAA90318</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06018BC0-2AA2-BD7E-8DCD-38793CBD51BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="375465CB-C900-797E-B7A7-5156F37AC8A3" name="UN_T_EXE_INSTRUTOR_CPF">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:43:41 UTC</createdTime>
+<comment><![CDATA[Cada instrutor deve ter um CPF único]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB3B04C3-DE6B-9FAF-27B1-05345F3AD97C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_EXE_INSTRUTOR_CPF" directorySegmentName="seg_0" id="9E04E780-0AF1-7640-A529-C81885ADDE69">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-20 00:54:58 UTC</createdTime>
+<comment><![CDATA[O CPF deve ter exatamente 11 dígitos numéricos ]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[REGEXP_LIKE(NR_CPF, '^[0-9]{11}$')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

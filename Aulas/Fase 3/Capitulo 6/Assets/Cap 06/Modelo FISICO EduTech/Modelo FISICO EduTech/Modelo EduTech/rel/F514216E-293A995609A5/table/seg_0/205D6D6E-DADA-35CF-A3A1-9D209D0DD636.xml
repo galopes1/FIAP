@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="205D6D6E-DADA-35CF-A3A1-9D209D0DD636" name="T_EXE_AULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<generatorID>F1C9B633-C3A1-9D01-F132-AE15CC39D5C6</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aula" id="D73E7C1A-4796-D06D-E624-CCD3200F8315">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da aula]]></commentInRDBMS>
+<generatorID>DBAE72BA-A443-B615-8513-D93491F7E8C1</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_curso" id="F98FC71B-BA21-ED53-C1DD-B5DA57FB8B06">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave estrangeira - Relacionamento com Curso]]></commentInRDBMS>
+<generatorID>BE9B18C4-296C-B7FB-29E4-B81B7A747BE6</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1492F8D4-BEBC-6DEC-F60B-3513FFC3D390" referredColumn="8B8094C2-477E-22F9-3FA3-C495F842CFEE"/>
+</associations>
+</Column>
+<Column name="nr_ordem_sequencial" id="AB040401-C784-9AB6-A608-58E573BAE7C5">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número sequencial que ordena as aulas (exemplo: 1,2,3,...n)]]></commentInRDBMS>
+<generatorID>B10AD6B9-4CBA-EB85-E9FA-240A5E183093</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_aula" id="7D5D2309-310F-F7BE-3537-5CBED72BBB80">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da aula - obrigatório (exemplo: Aula sobre Relacionamentos em Banco de Dados)]]></commentInRDBMS>
+<generatorID>B459FF1A-938A-3F34-B272-453627605537</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_duracao_minuto" id="1295751D-A3A8-A0AA-28CE-64F07F88F3A5">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Duração da aula em minutos]]></commentInRDBMS>
+<generatorID>4343092C-5386-E07F-29D7-54290CB5DA3A</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="758CDB66-28A2-546F-4E96-8749B197A03C" name="PK_T_EXE_AULA">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>7739AEF2-F395-EC53-95CD-48F5446AEADB</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D73E7C1A-4796-D06D-E624-CCD3200F8315"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="062CCFEF-936C-DB99-2B98-6D310E9E92FA" name="FK_T_EXE_AULA_CURSO">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:09 UTC</createdTime>
+<generatorID>5D731BBC-49D9-1512-49C1-6B046180AA39</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F98FC71B-BA21-ED53-C1DD-B5DA57FB8B06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_EXE_AULA_DURACAO" directorySegmentName="seg_0" id="BB6FAACC-284B-F8AC-FB8D-4728A0BC322A">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-20 00:32:03 UTC</createdTime>
+<comment><![CDATA[A duração de uma aula deve ser maior que zero ]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[NR_DURACAO_MINUTO > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

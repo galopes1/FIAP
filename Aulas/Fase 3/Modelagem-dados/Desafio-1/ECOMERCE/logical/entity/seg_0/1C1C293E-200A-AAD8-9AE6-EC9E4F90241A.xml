@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C1C293E-200A-AAD8-9AE6-EC9E4F90241A" name="T_TSB_CLIENTES">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:18:39 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="A12E9DC8-653F-F8EF-7FE2-3B91372A21C5">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:19:30 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="8BC6E6F5-C902-56F3-4FBA-D4A17BCA7CF4">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:19:43 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="61F8BF7D-1CC5-9B12-16B5-BF074008910D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:19:50 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="B3081243-C214-A28A-DAAD-D1D84F0FE1F9">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:20:06 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="B19DA466-E9B4-DD50-28A2-28ABB2F02F75">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:20:17 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="1753B5CC-517C-1AB3-CE89-37DA9E93D446">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:20:26 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="BD78E24E-D787-E860-2B7B-52FCCE66B723">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:20:43 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cadastro" id="6C43E6FA-B803-9F38-389F-F6A46777E29C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:20:52 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="863CC4AF-1EDF-DDA8-4EEA-CF31797D3B70" name="T_CLIENTES PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:19:38 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A12E9DC8-653F-F8EF-7FE2-3B91372A21C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

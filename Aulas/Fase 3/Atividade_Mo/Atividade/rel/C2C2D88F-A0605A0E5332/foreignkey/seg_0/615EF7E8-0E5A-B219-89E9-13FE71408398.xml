@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="615EF7E8-0E5A-B219-89E9-13FE71408398" containerWithKeyObject="5EBBE577-90C7-64CA-9E49-D652299142DD" localFKIndex="2C60EBCF-D660-81F1-E67F-962372C63FBC" name="TETO_GASTO_CATEGORIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>C857113E-DA69-9A8D-3F35-A10C17DFC38A</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<referredTableLongName>CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF5FB6DF-91FF-D383-BE77-50DC1FCC937C</referredTableID>
+<keyObject>265DDE1E-06AB-E875-3BD8-B7D711C4AAB8</keyObject>
+<referredKeyID>265DDE1E-06AB-E875-3BD8-B7D711C4AAB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

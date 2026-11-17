@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B183F57E-3326-9414-5A35-7CB8DD97C08A" containerWithKeyObject="7BD3CA98-888D-36E9-56D6-60F7B1306166" localFKIndex="8995205D-11ED-8226-7E64-BB332AF1D806" name="TRANSACAO_CATEGORIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:40:47 UTC</createdTime>
+<generatorID>400F4585-3559-A7F9-BFE8-CDD1795B1706</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<referredTableLongName>CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF5FB6DF-91FF-D383-BE77-50DC1FCC937C</referredTableID>
+<keyObject>265DDE1E-06AB-E875-3BD8-B7D711C4AAB8</keyObject>
+<referredKeyID>265DDE1E-06AB-E875-3BD8-B7D711C4AAB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

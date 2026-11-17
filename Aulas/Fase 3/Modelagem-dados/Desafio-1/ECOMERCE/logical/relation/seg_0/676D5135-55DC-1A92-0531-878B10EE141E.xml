@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAZER" directorySegmentName="seg_0" id="676D5135-55DC-1A92-0531-878B10EE141E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-10-20 22:24:22 UTC</createdTime>
+<ownerDesignName>ECOMERCE</ownerDesignName>
+<engineerTo>
+<item key="92361A1F-1947-7BC2-76D3-BDC64DA47044" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>863CC4AF-1EDF-DDA8-4EEA-CF31797D3B70</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1C1C293E-200A-AAD8-9AE6-EC9E4F90241A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>540DF374-6876-4E14-B23A-B70979AD5B9B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

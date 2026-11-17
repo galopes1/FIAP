@@ -1,0 +1,12 @@
+Problemas principais
+- Priorização de cargas(tempo, prioridade, peso, destino)
+- Aumentar a volumetria, como transportar mais cargas, priorizando cargas mais importantes, diluindo da maneira mais eficiente para se adequar aos prazos e prioridades.
+
+Algo relacionado a uma torre de controle da operação logistíca
+
+-Desculpe se já foi falado, mas qual é o tempo médio que vocês possuem depois que foi informado a carga disponível no voo e a saída do avião? // De 3 a 4 horas, porém pode chegar na hora e não embarcar por diversos fatores, como mudança no combustível, na bagagem, clima, número de passageiros ou até mesmo troca da aeronave.
+Caso não embarque ficaria como prioridade para o próximo voo possível.
+
+
+DESAFIOS: 
+Definir uma estratégia para otimizar a organização de cada tipo de carga com base na prioridade, peso e destino e definir o melhor voo e avião a ser atribuído as cargas seria algo a ser pensado?

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA072E53-C6EF-452B-39E2-17A1584A65FA" name="USUARIO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:06:22 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="82A7AEDC-7D12-7EEF-BAAA-653533A72E23">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:06:32 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuario" id="C38A9F1B-B59D-C85F-EC1E-164454D91A4C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:06:37 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="C903B93B-8183-5A16-24F7-1AF398F74C19">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:06:41 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_senha" id="B726E10E-856B-5374-11F3-A93C10D8BC80">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:06:45 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="B2D79E84-D1C1-75AA-19A2-CC1248394538">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:06:48 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cadastro" id="B7392318-58AE-8C14-5446-3361FFC69512">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:06:53 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E4059E1-8713-DE4E-2087-D55C9A7970A6" name="USUARIO PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:06:36 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82A7AEDC-7D12-7EEF-BAAA-653533A72E23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

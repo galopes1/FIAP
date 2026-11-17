@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80E5977F-4324-4457-8CB8-EE371D45D766" name="T_EXE_ALUNO">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<generatorID>585FCB68-7283-0C34-9E58-9515AA019FF8</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aluno" id="25C53365-F1B6-E6AE-2B66-3FF57377EEBD">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do aluno]]></commentInRDBMS>
+<generatorID>A7072844-CA41-2D57-B3E2-C3209F971FCD</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_aluno" id="B3680C42-A13C-0B17-CF11-BCAC1E67476A">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do aluno - obrigatório]]></commentInRDBMS>
+<generatorID>703D5388-4142-A353-5090-24C9BD23442E</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="78F82C23-6C74-3C64-0450-DCAD2CFC4BEE">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cada aluno deve ter um CPF único. O CPF deve ter exatamente 11 dígitos numéricos ]]></commentInRDBMS>
+<generatorID>AD499517-5906-3121-1476-36510728407B</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="8759E971-EDE4-CDF6-B6D3-0E68C1DA0189">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Endereço de e-mail do aluno. Cada aluno deve ter um e-mail único. O e-mail deve conter '@' e pelo menos um '.']]></commentInRDBMS>
+<generatorID>90E02E71-C67E-6BD2-BCE5-895446827E3F</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="CA415594-9C7A-4C94-AD90-F07464B7D18A">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Um aluno pode ter ou não um número de telefone.]]></commentInRDBMS>
+<generatorID>795CB9FA-48F1-33CB-3763-82E066C449EF</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="56416DB7-6BDB-9F5E-A46F-449243EF418A">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora que o cadastro do aluno foi realizado]]></commentInRDBMS>
+<generatorID>67D74E63-6B39-2432-B791-B41837D41B57</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB8D9C58-A915-389E-E06E-8580EFC00F3E" name="PK_T_EXE_ALUNO">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:28:08 UTC</createdTime>
+<generatorID>CF876F78-E83D-DDB9-190E-083EAFE79E53</generatorID>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25C53365-F1B6-E6AE-2B66-3FF57377EEBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21B2F390-2EB1-857A-0A8A-098F0C88E67D" name="UN_T_EXE_ALUNO_CPF">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:43:51 UTC</createdTime>
+<comment><![CDATA[Cada aluno deve ter um CPF único]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78F82C23-6C74-3C64-0450-DCAD2CFC4BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="108B8FCE-7075-1558-FB6D-DF688E024715" name="UN_T_EXE_ALUNO_EMAIL">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-19 03:44:46 UTC</createdTime>
+<comment><![CDATA[Cada aluno deve ter um e-mail único ]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8759E971-EDE4-CDF6-B6D3-0E68C1DA0189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_EXE_ALUNO_CPF" directorySegmentName="seg_0" id="1133C126-1F91-690F-1DE4-71C823225435">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-20 00:56:45 UTC</createdTime>
+<comment><![CDATA[O CPF deve ter exatamente 11 dígitos numéricos ]]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[REGEXP_LIKE(NR_CPF, '^[0-9]{11}$')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_T_EXE_ALUNO_EMAIL" directorySegmentName="seg_0" id="D685E5AE-CBB3-B8AB-F110-60396B65FF75">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-20 01:14:13 UTC</createdTime>
+<comment><![CDATA[O e-mail deve conter '@' e pelo menos um '.']]></comment>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<rule><![CDATA[REGEXP_LIKE(ds_email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="EDAEA9D6-CCEC-EE37-3627-0347AE585EA5" mainViewID="50D08DB4-1A91-8175-F17C-F037F5D8D0D7">
+<createdBy>ritac</createdBy>
+<createdTime>2025-11-18 11:57:11 UTC</createdTime>
+<ownerDesignName>Modelo EduTech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

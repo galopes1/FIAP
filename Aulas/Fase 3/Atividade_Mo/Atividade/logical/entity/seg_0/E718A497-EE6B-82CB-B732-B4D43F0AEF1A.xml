@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E718A497-EE6B-82CB-B732-B4D43F0AEF1A" name="TRANSACAO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:15:35 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_transacao" id="1D9F035D-04F2-C5AC-075A-35ACDCFB0343">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:15:53 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conta" id="805E09ED-0D1F-BCA5-29B7-5B0B7EAEBA52">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:27:16 UTC</createdTime>
+<generatorID>9B94C7FB-5371-AE0B-C5FF-C8B7ADB4A70B</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<referedAttribute>2640A48C-6251-C63B-5590-4E0F08C1C4FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="4CD33AC7-0164-BD62-F132-46486565E3AB">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:30:01 UTC</createdTime>
+<generatorID>400F4585-3559-A7F9-BFE8-CDD1795B1706</generatorID>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<referedAttribute>FB5FEC9B-696D-601B-1533-695A92DEA10A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_transacao" id="C58DB889-41B5-DCC9-25AC-06DA6880F4F6">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:16:04 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_transacao" id="C62F952B-49AD-73A7-7C76-EB289DFA0500">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:16:23 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_transacao" id="1B91A515-816F-E118-1636-1FED32FE4C59">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:16:43 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_transacao" id="9E907FD2-5CCC-9F1B-DD4D-A416FB3E721F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:17:03 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_forma_pagamento" id="199DA3DA-2291-C812-C661-24376A9FE9E1">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:17:17 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C4A269A-AD44-FC58-A492-A0886BDFF84F" name="TRANSACAO PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2026-11-10 00:15:51 UTC</createdTime>
+<ownerDesignName>Atividade</ownerDesignName>
+<engineerTo>
+<item key="C2C2D88F-D932-7BCB-73A8-A0605A0E5332" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1D9F035D-04F2-C5AC-075A-35ACDCFB0343,9B94C7FB-5371-AE0B-C5FF-C8B7ADB4A70B</newElementsIDs>
+<usedAttributes>
+<attributeRef>1D9F035D-04F2-C5AC-075A-35ACDCFB0343</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
